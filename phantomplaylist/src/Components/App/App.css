@@ -23,8 +23,8 @@ h2 {
 }
 
 .App {
-  height: 75%;
-  padding: 0 10% 30% 10%;
+  height: 5%;
+  padding: 0 5% 10% 5%;
   background-image: url('./phantom_background_img.jpeg');
   background-size: cover;
   background-position: center;
@@ -38,7 +38,7 @@ h2 {
   width: 100%;
 }
 
-@media screen {
+@media only screen (max-width:1020px)  {
   .App-playlist {
     align-items: center;
     flex-direction: column;

@@ -1,5 +1,7 @@
 import React from 'react';
 import './App.css';
+import LookUp from '../LookUp/LookUp';
+import SearchOutput from '../SearchOutput/SearchOutput';
 
 class App extends React.Component {
   render() {
@@ -7,9 +9,9 @@ class App extends React.Component {
       <div>
         <h1 className = "highlight"> Phantom Playlist</h1>
         <div className ="App">
-          {/* <SearchBar /> */}
+          <LookUp /> 
         <div className ="App-playlist">
-          {/* <SearchResults /> */}
+          <SearchOutput />
           {/* <Playlist /> */}
         </div>
         </div>

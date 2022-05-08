@@ -1,0 +1,32 @@
+.LookUp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 8rem;
+    margin-bottom: 7.5rem;
+}
+
+.LookUp input {
+    width: 300px;
+    padding: .75rem 0;
+    border: 1px solid blueviolet;
+    border-radius: 2px;
+    margin-bottom: 2.22rem;
+    color:blueviolet;
+    text-align:center;
+    font-size: 1rem;
+}
+
+.LookUp input:focus {
+    outline: none;
+
+}
+.Button {
+    cursor: pointer;
+    width: 8.11rem;
+    
+}
+
+.Button:hover {
+    background-color: aqua;
+}
