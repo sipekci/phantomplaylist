@@ -1,0 +1,48 @@
+body, 
+html,
+#root {
+  height: 100%;
+}
+
+html {
+  font-size: 20px;
+}
+
+h1 {
+  padding: 0.75rem 0;
+  background-color: rgb(29, 118, 153);
+  text-align: center;
+  font-family: 'Koulen';
+  font-size: 1.5rem;
+  color:rgb(255, 255, 255);
+}
+
+h2 {
+  font-family: 'Mukta';
+  font-size: 1.55rem;
+  color:black;
+}
+
+.App {
+  height: 5%;
+  padding: 0 5% 10% 5%;
+  background-image: url('./phantom_background_img.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: 'Mukta';
+  color: rgb(0, 0, 0); 
+}
+
+.App-playlist {
+  display: flex;
+  width: 100%;
+}
+
+@media only screen (max-width:1020px)  {
+  .App-playlist {
+    align-items: center;
+    flex-direction: column;
+  }
+  
+}
