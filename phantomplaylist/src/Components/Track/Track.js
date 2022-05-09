@@ -27,7 +27,7 @@ class Track extends React.Component {
         return (
             <div className="Track">
                  <div className="Track-information">
-                    <img src= {this.props.track.image} alt ="new" />
+                    <img src= {this.props.track.image} alt ="new" width = "50" height = '50'/>
                     <p>{this.props.track.name} | {this.props.track.artist}</p>
                 </div>
                 {this.renderAction()}
