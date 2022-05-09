@@ -25,3 +25,5 @@ As for UI decisions, the search tool is easily visible so its's centered. I hear
 
 **How to Access Website:**
 Go to "https://sipekci.github.io/phantomplaylist/"
+
+Alternatively, you can download node & npm, and the current repository and run "npm start" in the terminal to view n our local host server.
