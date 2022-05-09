@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/phantomplaylist/static/css/main.49f11300.css",
+    "main.js": "/phantomplaylist/static/js/main.4b9d1252.js",
+    "static/js/787.28cb0dcd.chunk.js": "/phantomplaylist/static/js/787.28cb0dcd.chunk.js",
+    "static/media/phantom_background_img.jpeg": "/phantomplaylist/static/media/phantom_background_img.0f1daad874a4c559534b.jpeg",
+    "index.html": "/phantomplaylist/index.html",
+    "main.49f11300.css.map": "/phantomplaylist/static/css/main.49f11300.css.map",
+    "main.4b9d1252.js.map": "/phantomplaylist/static/js/main.4b9d1252.js.map",
+    "787.28cb0dcd.chunk.js.map": "/phantomplaylist/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.49f11300.css",
+    "static/js/main.4b9d1252.js"
+  ]
+}
