@@ -1,8 +1,9 @@
 .SearchOutput {
-    padding: .75rem;
+    width: 50%;
+    padding: .88rem;
+    overflow-y: scroll;
     height: 850px;
-    width:50%;
-    background-color: black;
+    background-color: rgb(255, 255, 255);
     box-shadow: 0 10px 5px 5px black;
 }
 
@@ -13,8 +14,7 @@
 
 @media only screen and (max-width:1020px) {
     .SearchOutput {
-        width: 50%;
-        margin-bottom:5rem;
+        width: 90%;
     }
     
 }
