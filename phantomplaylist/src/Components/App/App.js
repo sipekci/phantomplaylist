@@ -20,6 +20,7 @@ class App extends React.Component {
     };
     this.addTrack = this.addTrack.bind(this);
     this.removeTrack = this.removeTrack.bind(this);
+    this.search = this.search.bind(this);
   }
   
   addTrack(track){
@@ -36,12 +37,16 @@ class App extends React.Component {
     tracks = tracks.filter(currentTrack => currentTrack.id !== track.id);
     this.setState({playlistTrack: tracks});
   }
+
+  search(term){
+    console.log(term);
+  }
   render() {
     return (
       <div>
         <h1 className = "highlight"> Phantom Playlist</h1>
         <div className ="App">
-          <LookUp /> 
+          <LookUp onSearch={this.search} /> 
         <div className ="App-playlist">
           <SearchOutput searchOutput={this.state.searchOutput}
                 onAdd={this.addTrack}/>
