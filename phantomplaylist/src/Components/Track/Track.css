@@ -15,7 +15,7 @@
   }
   
   .Track-action:hover {
-    color: rgba(265, 265, 265, .5);
+    color: red;
   }
   
   .Track-information {
@@ -27,6 +27,9 @@
   }
   
   .Track-information h3 {
+    font-size: .83rem;
+    font-weight: 300;
+    color: black;
     margin-bottom: .22rem;
   }
   
